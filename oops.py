@@ -19,4 +19,4 @@ Prakash = Person("Prakash",22)
 
 print(Prakash.a)
 print(Prakash.n)
-print(Prakash)
+print(Prakash),
