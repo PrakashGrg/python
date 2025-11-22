@@ -1,5 +1,5 @@
 ## Public
-- Accessible from anywhere — inside or outside the class.
+- Accessible from anywhere inside or outside the class.
 - You can freely use or modify it from any part of your code.
 
 
@@ -13,13 +13,13 @@ my_car = Car()
 print(my_car.color)  # Accessible
 
 
-✅ Importance
+## Importance
 - Allows free interaction with class members.
 - Ideal for features meant to be used externally (e.g., user-facing data or methods).
-💡 Why We Need It
+## Why We Need It
 - To expose functionality that other parts of the program or users should access.
 - Makes the class usable and flexible.
-📌 Key Points
+## Key Points
 - Accessible from anywhere: inside or outside the class.
 - Used for interfaces, getters/setters, and common attributes.
 - No underscore in Python (self.name).
@@ -29,10 +29,10 @@ print(my_car.color)  # Accessible
 - Public members are accessible from anywhere: inside the class, outside the class, and even in other packages or modules.
 - The compiler allows unrestricted access.
 
-🎯 Purpose
+## Purpose
 - Acts as the official gateway to interact with a class.
 - Defines what other parts of the program can see and use.
-🧩 Role in Design
+## Role in Design
 - Makes the class usable and accessible.
 - Encourages modular programming by exposing only necessary parts.
 
@@ -239,7 +239,7 @@ Anyone can rebuild the exact same setup.
 All serious Python development—web apps, AI/ML, automation—uses virtual environments.
 
 
-⭐ What is uv?
+## What is uv?
 
 uv is a super-fast Python package manager and virtual environment manager.
 It’s meant to be a modern replacement for:

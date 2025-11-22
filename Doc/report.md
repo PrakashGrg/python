@@ -50,7 +50,7 @@ It is widely used for web development, software development, data analysis, math
 
 
 ## Example
-print("Hello, World!")
+```print("Hello, World!")```
 
 
 
@@ -62,7 +62,7 @@ print("Hello, World!")
 -> In a programming language, these programming instructions are called statements.
 
 ## Example
-print("Python is fun!")
+```print("Python is fun!")```
 
 ## Many Statements
 
@@ -71,9 +71,9 @@ print("Python is fun!")
 -> The statements are executed one by one, in the same order as they are written:
 
 ## Example
-print("Hello World!")
+```print("Hello World!")
 print("Have a good day.")
-print("Learning Python is fun!")
+print("Learning Python is fun!")```
 
 
 -> The first statement is executed first (print "Hello World!").
@@ -93,35 +93,35 @@ print("Learning Python is fun!")
 -> A variable is created the moment you first assign a value to it.
 
 ## Example
-x = 5
+```x = 5
 y = "John"
 print(x)
-print(y)
+print(y)```
 
 -> Variables do not need to be declared with any particular type, and can even change type after they have been set.
 
 ## Example
-x = 4       # x is of type int
+```x = 4       # x is of type int
 x = "Sally" # x is now of type str
-print(x)
+print(x)```
 
 ## Casting
 
 -> If you want to specify the data type of a variable, this can be done with casting.
 
 ##Example
-x = str(3)    # x will be '3'
+```x = str(3)    # x will be '3'
 y = int(3)    # y will be 3
-z = float(3)  # z will be 3.0
+z = float(3)  # z will be 3.0```
 
 ## Get the Type
 -> You can get the data type of a variable with the type() function.
 
 ## Example
-x = 5
+```x = 5
 y = "John"
 print(type(x))
-print(type(y))
+print(type(y))```
 
 
 ## Single or Double Quotes?
@@ -129,8 +129,8 @@ print(type(y))
 ->String variables can be declared either by using single or double quotes:
 
 ## Example
-x = "John" # is the same as
-x = 'John'
+```x = "John" # is the same as
+x = 'John'```
 
 ## Case-Sensitive
 -> Variable names are case-sensitive.
@@ -138,9 +138,9 @@ x = 'John'
 ## Example
 -> This will create two variables:
 
-a = 4
+```a = 4
 A = "Sally"
-#A will not overwrite a
+#A will not overwrite a```
 
 
 # Python - Variable Names
@@ -157,14 +157,14 @@ A = "Sally"
 5. A variable name cannot be any of the Python keywords.
 
 ## Example
-Legal variable names:
+```Legal variable names:
 
 myvar = "John"
 my_var = "John"
 _my_var = "John"
 myVar = "John"
 MYVAR = "John"
-myvar2 = "John"
+myvar2 = "John"```
 
 
 # Python Data Types
@@ -191,16 +191,16 @@ myvar2 = "John"
 -> You can get the data type of any object by using the type() function:
 
 ## Example
--> Print the data type of the variable x:
+```-> Print the data type of the variable x:
 x = 5
-print(type(x))
+print(type(x))```
 
 
 ## Setting the Data Type
 
 -> In Python, the data type is set when you assign a value to a variable:
 
-Example	Data Type
+```Example	Data Type
 x = "Hello World"	str
 x = 20	int
 x = 20.5	float
@@ -215,7 +215,7 @@ x = True	bool
 x = b"Hello"	bytes
 x = bytearray(5)	bytearray
 x = memoryview(bytes(5))	memoryview
-x = None	NoneType
+x = None	NoneType```
 
 
 
@@ -223,7 +223,7 @@ x = None	NoneType
 
 -> If you want to specify the data type, you can use the following constructor functions:
 
-Example	Data Type
+```Example	Data Type
 x = str("Hello World")	str
 x = int(20)	int
 x = float(20.5)	float
@@ -237,28 +237,28 @@ x = frozenset(("apple", "banana", "cherry"))	frozenset
 x = bool(5)	bool
 x = bytes(5)	bytes
 x = bytearray(5)	bytearray
-x = memoryview(bytes(5))	memoryview
+x = memoryview(bytes(5))	memoryview```
 
 
 ## Python Numbers
 -> There are three numeric types in Python:
 
-1. int
+```1. int
 2. float
 3. complex
--> Variables of numeric types are created when you assign a value to them:
+-> Variables of numeric types are created when you assign a value to them:```
 
 ## Example
-x = 1    # int
+```x = 1    # int
 y = 2.8  # float
-z = 1j   # complex
+z = 1j   # complex```
 
 -> To verify the type of any object in Python, use the type() function:
 
 ## Example
-print(type(x))
+```print(type(x))
 print(type(y))
-print(type(z))
+print(type(z))```
 
 ## Int
 -> Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
