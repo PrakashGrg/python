@@ -71,9 +71,11 @@ It is widely used for web development, software development, data analysis, math
 -> The statements are executed one by one, in the same order as they are written:
 
 ## Example
-```print("Hello World!")
+```
+print("Hello World!")
 print("Have a good day.")
-print("Learning Python is fun!")```
+print("Learning Python is fun!")
+```
 
 
 -> The first statement is executed first (print "Hello World!").
@@ -93,35 +95,43 @@ print("Learning Python is fun!")```
 -> A variable is created the moment you first assign a value to it.
 
 ## Example
-```x = 5
+```
+x = 5
 y = "John"
 print(x)
-print(y)```
+print(y)
+```
 
 -> Variables do not need to be declared with any particular type, and can even change type after they have been set.
 
 ## Example
-```x = 4       # x is of type int
+```
+x = 4       # x is of type int
 x = "Sally" # x is now of type str
-print(x)```
+print(x)
+```
 
 ## Casting
 
 -> If you want to specify the data type of a variable, this can be done with casting.
 
 ##Example
-```x = str(3)    # x will be '3'
+```
+x = str(3)    # x will be '3'
 y = int(3)    # y will be 3
-z = float(3)  # z will be 3.0```
+z = float(3)  # z will be 3.0
+```
 
 ## Get the Type
 -> You can get the data type of a variable with the type() function.
 
 ## Example
-```x = 5
+```
+x = 5
 y = "John"
 print(type(x))
-print(type(y))```
+print(type(y))
+```
 
 
 ## Single or Double Quotes?
@@ -129,8 +139,10 @@ print(type(y))```
 ->String variables can be declared either by using single or double quotes:
 
 ## Example
-```x = "John" # is the same as
-x = 'John'```
+```
+x = "John" # is the same as
+x = 'John'
+```
 
 ## Case-Sensitive
 -> Variable names are case-sensitive.
@@ -138,9 +150,11 @@ x = 'John'```
 ## Example
 -> This will create two variables:
 
-```a = 4
+```
+a = 4
 A = "Sally"
-#A will not overwrite a```
+#A will not overwrite a
+```
 
 
 # Python - Variable Names
@@ -164,7 +178,8 @@ my_var = "John"
 _my_var = "John"
 myVar = "John"
 MYVAR = "John"
-myvar2 = "John"```
+myvar2 = "John"
+```
 
 
 # Python Data Types
@@ -191,9 +206,12 @@ myvar2 = "John"```
 -> You can get the data type of any object by using the type() function:
 
 ## Example
-```-> Print the data type of the variable x:
+```
+-> Print the data type of the variable x:
+```
 x = 5
-print(type(x))```
+print(type(x))
+```
 
 
 ## Setting the Data Type
@@ -215,7 +233,8 @@ x = True	bool
 x = b"Hello"	bytes
 x = bytearray(5)	bytearray
 x = memoryview(bytes(5))	memoryview
-x = None	NoneType```
+x = None	NoneType
+```
 
 
 
@@ -228,37 +247,42 @@ x = str("Hello World")	str
 x = int(20)	int
 x = float(20.5)	float
 x = complex(1j)	complex
-x = list(("apple", "banana", "cherry"))	list
-x = tuple(("apple", "banana", "cherry"))	tuple
+x = list(("apple", "banana", "cherry"))	#list
+x = tuple(("apple", "banana", "cherry"))	#tuple
 x = range(6)	range
 x = dict(name="John", age=36)	dict
 x = set(("apple", "banana", "cherry"))	set
-x = frozenset(("apple", "banana", "cherry"))	frozenset
+x = frozenset(("apple", "banana", "cherry"))	#frozenset
 x = bool(5)	bool
 x = bytes(5)	bytes
 x = bytearray(5)	bytearray
-x = memoryview(bytes(5))	memoryview```
+x = memoryview(bytes(5))	memoryview
+```
 
 
 ## Python Numbers
 -> There are three numeric types in Python:
 
-```1. int
+1. int
 2. float
 3. complex
--> Variables of numeric types are created when you assign a value to them:```
+-> Variables of numeric types are created when you assign a value to them:
 
 ## Example
-```x = 1    # int
+```
+x = 1    # int
 y = 2.8  # float
-z = 1j   # complex```
+z = 1j   # complex
+```
 
 -> To verify the type of any object in Python, use the type() function:
 
 ## Example
-```print(type(x))
+```
+print(type(x))
 print(type(y))
-print(type(z))```
+print(type(z))
+```
 
 ## Int
 -> Int, or integer, is a whole number, positive or negative, without decimals, of unlimited length.
@@ -272,7 +296,8 @@ z = -3255522
 
 print(type(x))
 print(type(y))
-print(type(z))```
+print(type(z))
+```
 
 
 ## Float
@@ -287,7 +312,8 @@ z = -35.59
 
 print(type(x))
 print(type(y))
-print(type(z))```
+print(type(z))
+```
 
 -> Float can also be scientific numbers with an "e" to indicate the power of 10.
 
@@ -300,7 +326,8 @@ z = -87.7e100
 
 print(type(x))
 print(type(y))
-print(type(z))```
+print(type(z))
+```
 
 
 ## Complex
@@ -316,7 +343,8 @@ z = -5j
 
 print(type(x))
 print(type(y))
-print(type(z))```
+print(type(z))
+```
 
 
 ## Type Conversion
@@ -344,7 +372,8 @@ print(c)
 
 print(type(a))
 print(type(b))
-print(type(c))```
+print(type(c))
+```
 -> Note: You cannot convert complex numbers into another number type.
 
 ## Random Number
@@ -352,7 +381,8 @@ print(type(c))```
 Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbers:
 
 ## Example
-```Import the random module, and display a random number from 1 to 9:```
+```Import the random module, and display a random number from 1 to 9:
 
 import random
-print(random.randrange(1, 10))```
+print(random.randrange(1, 10))
+```

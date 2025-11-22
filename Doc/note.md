@@ -4,14 +4,14 @@
 
 
 ## Example:
-
+```
 class Car:
     def __init__(self):
         self.color = "Red"  # public attribute
 
 my_car = Car()
 print(my_car.color)  # Accessible
-
+```
 
 ## Importance
 - Allows free interaction with class members.
@@ -53,13 +53,14 @@ print(my_car.color)  # Accessible
 
 
 ## Example:
-
+```
 class Car:
     def __init__(self):
         self.__engine_number = "ABC123"  # private attribute
 
 my_car = Car()
 print(my_car.__engine_number)  # Error: not accessible directly
+```
 
 Importance
 - Protects sensitive data and internal logic.
@@ -99,7 +100,7 @@ Role in Design
 - It's a convention, not strict enforcement.
 
 ## Example:
-
+```
 class Car:
     def __init__(self):
         self._mileage = 15000  # protected attribute
@@ -110,7 +111,7 @@ class ElectricCar(Car):
 
 e_car = ElectricCar()
 e_car.show_mileage()
-
+```
 
 Importance
 - Balances accessibility and safety.
@@ -244,7 +245,7 @@ All serious Python development—web apps, AI/ML, automation—uses virtual envi
 uv is a super-fast Python package manager and virtual environment manager.
 It’s meant to be a modern replacement for:
 
-pip
+```pip
 
 pip install
 
@@ -255,6 +256,7 @@ pip-tools
 pipx
 
 pyenv (partially)
+```
 
 It’s written in Rust, which makes it extremely fast.
 
